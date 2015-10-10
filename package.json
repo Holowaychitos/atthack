@@ -1,0 +1,36 @@
+{
+  "name": "atthack",
+  "version": "1.0.0",
+  "description": "AT&T Hack App",
+  "main": "app/app.js",
+  "scripts": {
+    "test": "jest",
+    "start": "webpack-dev-server --hot --inline"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Holowaychitos/atthack.git"
+  },
+  "keywords": [
+    "att",
+    "app",
+    "hack"
+  ],
+  "author": "Holowaychitos team",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Holowaychitos/atthack/issues"
+  },
+  "homepage": "https://github.com/Holowaychitos/atthack#readme",
+  "devDependencies": {
+    "babel-core": "^5.8.25",
+    "babel-loader": "^5.3.2",
+    "file-loader": "^0.8.4",
+    "react-hot-loader": "^1.3.0",
+    "webpack": "^1.12.2",
+    "webpack-dev-server": "^1.12.0"
+  },
+  "dependencies": {
+    "react": "^0.14.0"
+  }
+}
